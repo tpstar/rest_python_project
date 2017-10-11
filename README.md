@@ -9,4 +9,5 @@ o	Example: the request “/hello?firstname=tien&lastname=nguyen&gender=m” r
 o	Example: the request “/compute?num1=5&num2=3&operation=subtract” returns “2” (5-3=2)
 
 •	Respond to requests of the form “/date” with the current date in the form “yyyy-mm-dd”
+
 o	Example: “/date” returns “2017-09-20”
