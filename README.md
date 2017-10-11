@@ -1,5 +1,12 @@
 # rest_python_project
 
+To use this app
+
+1. type "source activate myDjangoEnv" in your CLI
+2. run "python manage.py runserver" in your CLI
+3. copy the server address in the CLI (e.g. http://127.0.0.1:8000/) plus the following request form into the address bar of your browser to see the result:
+
+
 •	Respond to requests of the form “/hello?firstname={first name}&lastname={last name}&gender={m/f}” and respond with “Hello Mr {First Name} {Last Name}” or “Hello Ms {First Name} {Last Name}” depending on the gender
 
 o	Example: the request “/hello?firstname=tien&lastname=nguyen&gender=m” returns “Hello Mr Tien Nguyen”
